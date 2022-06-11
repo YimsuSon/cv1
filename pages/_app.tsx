@@ -21,7 +21,7 @@ const theme = createTheme({
 const NextBOSS = ({ Component, pageProps }: AppProps) => (
   <>
     <Head>
-      <title>재난 상황관리 시스템</title>
+      <title>Youngho App</title>
     </Head>
     <ThemeProvider theme={theme}>
       <Component {...pageProps} />
