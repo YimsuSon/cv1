@@ -28,7 +28,7 @@ const MapWrap = styled('div')(() => ({
   '& .ol-scale-line': {
     position: 'fixed',
     left: 'auto',
-    right: '450px',
+    right: '45px',
     bottom: '10px',
     background: 'rgb(255 255 255 / 38%)',
     borderRadius: '3px',
@@ -39,44 +39,47 @@ const MapWrap = styled('div')(() => ({
       fontSize: '.7em'
     }
   },
-  '& .custom-zoom': {
-    top: '54px',
-    right: '450px',
-    padding: 0,
-    background: '#fff',
-    border: '1px solid #b7b7b7',
-    boxShadow: '0 2px 2px 0px rgb(66 66 66 / 28%)',
-    '& > .custom-zoom-in': {
-      margin: 0,
-      minWidth: '34px',
-      minHeight: '34px',
-      background: '#fff',
-      color: 'rgba(0, 0, 0, 0.54)',
-      borderBottom: '1px solid #b7b7b7',
-      borderRadius: '4px 4px 0 0',
-      cursor: 'pointer',
-      '&:hover': {
-        background: '#005ebb',
-        color: '#fff',
-        transition: 'all 250ms'
-      }
-    },
-    '& > .custom-zoom-out': {
-      margin: 0,
-      minWidth: '34px',
-      minHeight: '34px',
-      background: '#fff',
-      color: 'rgba(0, 0, 0, 0.54)',
-      borderRadius: '0 0 4px 4px',
-      cursor: 'pointer',
-      '&:hover': {
-        background: '#005ebb',
-        color: '#fff',
-        transition: 'all 250ms'
-      }
-    }
-  }
 }));
+
+
+// '& .custom-zoom': {
+//   top: '54px',
+//   right: '45px',
+//   padding: 0,
+//   background: '#fff',
+//   border: '1px solid #b7b7b7',
+//   boxShadow: '0px 2px 2px 0px rgb(66 66 66 / 28%)',
+//   '& > .custom-zoom-in': {
+//     margin: 0,
+//     minWidth: '34px',
+//     minHeight: '34px',
+//     background: '#fff',
+//     color: 'rgba(0, 0, 0, 0.54)',
+//     borderBottom: '1px solid #b7b7b7',
+//     borderRadius: '4px 4px 0 0',
+//     cursor: 'pointer',
+//     '&:hover': {
+//       background: '#005ebb',
+//       color: '#fff',
+//       transition: 'all 250ms'
+//     }
+//   },
+//   '& > .custom-zoom-out': {
+//     margin: 0,
+//     minWidth: '34px',
+//     minHeight: '34px',
+//     background: '#fff',
+//     color: 'rgba(0, 0, 0, 0.54)',
+//     borderRadius: '0 0 4px 4px',
+//     cursor: 'pointer',
+//     '&:hover': {
+//       background: '#005ebb',
+//       color: '#fff',
+//       transition: 'all 250ms'
+//     }
+//   }
+// }
+
 
 const maps = new Map({
 
